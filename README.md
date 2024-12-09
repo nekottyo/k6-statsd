@@ -7,7 +7,7 @@ included.
 ## Usage
 
 ```
-docker run --rm -it ghcr.io/georift/k6-statsd version
+docker run --rm -it ghcr.io/nekottyo/k6-statsd version
 ```
 
 For a complete options reference see [the extension

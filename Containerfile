@@ -1,6 +1,6 @@
 FROM grafana/xk6:0.11.0 as builder
 
-RUN xk6 build v0.50.0 --with github.com/LeonAdato/xk6-output-statsd@v0.1.1
+RUN xk6 build v0.55.0 --with github.com/LeonAdato/xk6-output-statsd@v0.2.0
 
 # Runtime stage
 FROM alpine:3.18 as release
